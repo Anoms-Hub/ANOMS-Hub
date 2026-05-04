@@ -1,0 +1,23 @@
+name: Setup Folders
+on:
+  push:
+      paths:
+            - '.github/workflows/setup-folders.yml'
+            permissions:
+              contents: write
+              jobs:
+                setup:
+                    runs-on: ubuntu-latest
+                        steps:
+                              - uses: actions/checkout@v4
+                                    - name: Create folders
+                                            run: |
+                                                      for dir in docs governance roadmaps brand contributors architecture; do
+                                                                  mkdir -p "$dir" && touch "$dir/.gitkeep"
+                                                                            done
+                                                                                  - name: Commit and push
+                                                                                          run: |
+                                                                                                    git config user.name "github-actions[bot]"
+                                                                                                              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                                                                                                                        git add -A
+                                                                                                                                  git diff --cached --quiet || (git commit -m "chore: add folder structure" && git push)
