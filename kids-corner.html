@@ -1,55 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AO | Kids Corner Story Studio</title>
-    <style>
-        body { background-color: #000; color: #00e5ff; font-family: 'Courier New', monospace; text-align: center; }
-        .studio-frame { 
-            border: 3px double #00e5ff; 
-            margin: 20px auto; 
-            padding: 20px; 
-            max-width: 800px;
-            background: rgba(0, 229, 255, 0.05);
-            box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
-        }
-        .episode-card { 
-            border: 1px solid #ff00ff; 
-            padding: 15px; 
-            background: #111; 
-            margin-bottom: 20px;
-        }
-        h2 { color: #ff00ff; text-shadow: 0 0 8px #ff00ff; }
-        .btn-action { 
-            background: transparent; 
-            border: 2px solid #00e5ff; 
-            color: #00e5ff; 
-            padding: 10px 20px; 
-            cursor: pointer;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        .btn-action:hover { background: #ff00ff; border-color: #ff00ff; color: #000; }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anom Artsy — Kids Corner</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-    <h1>AO STORY STUDIO</h1>
-    <p>[ MISSION: AUTHENTIC IDENTITY ]</p>
-    
-    <div class="studio-frame">
-        <div class="episode-card">
-            <h2>EPISODE 2: GRANDMA MOVES IN</h2>
-            <p>Status: Active | Theme: Relationship Support</p>
-            <a href="grandma-moves-in.html"><button class="btn-action">LAUNCH STORYBOARD</button></a>
-        </div>
-        
-        <div class="episode-card" style="border-color: #555; opacity: 0.6;">
-            <h2>EPISODE 3: COMING SOON</h2>
-            <p>Status: Encrypted</p>
-            <button class="btn-action" disabled>LOCKED</button>
-        </div>
-    </div>
 
-    <a href="index.html" style="color: #ff00ff;">[ RETURN TO HUB ]</a>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class="nav-left">
+            <img src="assets/site/ao-logo-neon-square.png" alt="AO Logo" class="nav-logo">
+            <span class="nav-title">Anom Artsy</span>
+        </div>
+
+        <div class="nav-right">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="custom.html" class="nav-link">Custom Work</a>
+            <a href="merch.html" class="nav-link">Merch</a>
+            <a href="stories.html" class="nav-link">Stories</a>
+            <a href="kids-corner.html" class="nav-link active">Kids Corner</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" style="background: url('ao-background-aqua-butterfly-heart-dream-14.png') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1 class="hero-title">Anom’s Corner</h1>
+            <p class="hero-subtitle">Safe • Colorful • Fun</p>
+        </div>
+    </header>
+
+    <!-- INTRO -->
+    <section class="featured">
+        <h2 class="section-title">A Magical Space for Kids</h2>
+
+        <p style="max-width: 800px; margin: 0 auto 40px; color: #d6d6d6;">
+            A cozy digital nook where kids can enjoy short, expressive storybooks while parents explore
+            merch, art, and creative assets. Everything here is gentle, colorful, and age‑appropriate.
+        </p>
+    </section>
+
+    <!-- VIDEO + STORY LIST -->
+    <section class="featured">
+        <h2 class="section-title">Watch a Story</h2>
+
+        <div class="featured-grid">
+
+            <!-- VIDEO -->
+            <div class="featured-card">
+                <video controls style="width: 100%; border-radius: 10px;">
+                    <source src="pixel_dot_full_story_final.mp4" type="video/mp4">
+                </video>
+                <h3>Pixel & Dot’s New Adventure</h3>
+                <p>A gentle story about siblings, emotions, and imagination.</p>
+            </div>
+
+            <!-- STORY LIST -->
+            <div class="featured-card">
+                <h3>Upcoming Stories</h3>
+                <p>More colorful adventures are on the way:</p>
+                <ul style="margin-top: 12px; color: #d6d6d6; line-height: 1.8;">
+                    <li>Pixel & Dot: Debugging Day</li>
+                    <li>The Magic River Bridge</li>
+                    <li>Butterfly Heart Forest</li>
+                    <li>Dreamlight Castle</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PARENT NOTE -->
+    <section class="featured">
+        <h2 class="section-title">A Note for Parents</h2>
+
+        <p style="max-width: 800px; margin: 0 auto 30px; color: #d6d6d6;">
+            Every story is crafted with care — gentle themes, soft visuals, and expressive characters.
+            Kids can enjoy short digital adventures while you browse merch, explore art, or request custom work.
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Anom Artsy — All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>

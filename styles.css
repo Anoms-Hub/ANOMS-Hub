@@ -1,0 +1,183 @@
+/* ===========================
+   GLOBAL RESET + BASE
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+.nav {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+}
+
+.nav-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ff4df0;
+}
+
+.nav-right {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-link {
+    color: #b8b8b8;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #00eaff;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+.hero {
+    height: 80vh;
+    background: url('ao-background-neon-cosmic-muse-03.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #ff4df0;
+    text-shadow: 0 0 12px #ff4df0;
+}
+
+.hero-subtitle {
+    margin-top: 12px;
+    font-size: 1.3rem;
+    color: #d6d6d6;
+}
+
+.hero-buttons {
+    margin-top: 28px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 12px 26px;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.btn-primary {
+    background: #ff4df0;
+    color: #000;
+}
+
+.btn-primary:hover {
+    background: #ff7df7;
+}
+
+.btn-secondary {
+    border: 2px solid #00eaff;
+    color: #00eaff;
+}
+
+.btn-secondary:hover {
+    background: #00eaff;
+    color: #000;
+}
+
+/* ===========================
+   FEATURED SECTION
+=========================== */
+.featured {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #ff4df0;
+    text-shadow: 0 0 10px #ff4df0;
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+.featured-card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s ease;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.featured-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.featured-card:hover {
+    transform: translateY(-6px);
+    border-color: #00eaff;
+    box-shadow: 0 0 12px #00eaff;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.footer {
+    padding: 40px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    margin-top: 80px;
+}
