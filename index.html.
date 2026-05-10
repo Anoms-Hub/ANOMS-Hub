@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AO | Anom Originals Universe</title>
+    <style>
+        body {
+            background-color: #000000; /* Deep black base */
+            color: #00e5ff; /* Cyan text */
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            padding: 100px 20px;
+            border-bottom: 2px solid #ff00ff; /* Magenta glow border */
+        }
+        h1 {
+            color: #ff00ff; /* Hot Magenta */
+            font-size: 3rem;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+        .nav-links a {
+            color: #00e5ff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            border: 1px solid #00e5ff;
+            padding: 10px;
+        }
+        .nav-links a:hover {
+            background-color: #00e5ff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>ANOM ORIGINALS</h1>
+        <p>Neon Dreams. Pixel Precision. Organized Chaos.</p>
+        <div class="nav-links">
+            <a href="anoms-corner-ai.html">KIDS CORNER</a>
+            <a href="https://anom-originals.myspreadshop.com/">MERCH STORE</a>
+        </div>
+    </div>
+</body>
+</html>
