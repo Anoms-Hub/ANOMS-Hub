@@ -2,47 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AO | Anom Originals Universe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AO | ANOMS-Hub</title>
     <style>
-        body {
-            background-color: #000000; /* Deep black base */
-            color: #00e5ff; /* Cyan text */
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-            margin: 0;
-            padding: 0;
+        body { background-color: #000000; color: #ffffff; font-family: 'Segoe UI', sans-serif; margin: 0; text-align: center; }
+        .hero { padding: 80px 20px; background: radial-gradient(circle, rgba(0, 229, 255, 0.1) 0%, transparent 80%); }
+        h1 { color: #00e5ff; font-size: 3rem; text-shadow: 0 0 15px #00e5ff; margin: 0; }
+        .tagline { color: #ff00ff; font-style: italic; margin-top: 10px; }
+        
+        /* The Ecosystem Grid */
+        .map-container { max-width: 1000px; margin: 40px auto; padding: 20px; border: 1px solid #1e293b; border-radius: 20px; background: #050505; }
+        .repo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+        
+        .repo-card { 
+            background: #000; border: 1px solid #333; padding: 20px; border-radius: 15px; text-align: left;
+            transition: 0.3s; text-decoration: none; color: inherit;
         }
-        .hero {
-            padding: 100px 20px;
-            border-bottom: 2px solid #ff00ff; /* Magenta glow border */
-        }
-        h1 {
-            color: #ff00ff; /* Hot Magenta */
-            font-size: 3rem;
-            text-shadow: 0 0 10px #ff00ff;
-        }
-        .nav-links a {
-            color: #00e5ff;
-            text-decoration: none;
-            margin: 0 20px;
-            font-weight: bold;
-            border: 1px solid #00e5ff;
-            padding: 10px;
-        }
-        .nav-links a:hover {
-            background-color: #00e5ff;
-            color: #000;
-        }
+        .repo-card:hover { border-color: #00e5ff; box-shadow: 0 0 15px rgba(0, 229, 255, 0.3); }
+        .repo-card h3 { color: #ff00ff; margin: 0 0 10px 0; }
+        .repo-card p { font-size: 0.9rem; color: #aaa; margin: 0; }
+
+        .footer { margin-top: 60px; padding: 40px; border-top: 1px solid #1e293b; color: #555; }
     </style>
 </head>
 <body>
+
     <div class="hero">
-        <h1>ANOM ORIGINALS</h1>
-        <p>Neon Dreams. Pixel Precision. Organized Chaos.</p>
-        <div class="nav-links">
-            <a href="anoms-corner-ai.html">KIDS CORNER</a>
-            <a href="https://anom-originals.myspreadshop.com/">MERCH STORE</a>
+        <h1>ANOMS-Hub</h1>
+        <p class="tagline">Where neon meets structure. Where chaos gets organized.</p>
+    </div>
+
+    <div class="map-container">
+        <h2>🧭 Ecosystem Map</h2>
+        <div class="repo-grid">
+            <a href="kids-corner.html" class="repo-card">
+                <h3>anom-artsy</h3>
+                <p>Art assets, collectibles, and reward-tier icons.</p>
+            </a>
+            <a href="store.html" class="repo-card">
+                <h3>AO Store</h3>
+                <p>Digital and physical goods. Products and pricing.</p>
+            </a>
+            <a href="kids-corner.html" class="repo-card">
+                <h3>Kids Corner</h3>
+                <p>Family Arc storyboards and relationship support.</p>
+            </a>
+            <div class="repo-card" style="opacity: 0.5;">
+                <h3>ANOMS-Off-Grid</h3>
+                <p>Sandbox for experiments and prototypes. (Encrypted)</p>
+            </div>
         </div>
     </div>
+
+    <div class="footer">
+        <p>Built with 💜 by the AO team</p>
+        <p style="font-family: cursive; color: #ff00ff; font-size: 1.5rem;">Anom</p>
+    </div>
+
 </body>
 </html>
