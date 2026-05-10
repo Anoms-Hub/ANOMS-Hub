@@ -10,7 +10,110 @@
 <body>
 
     <!-- NAVIGATION -->
+    <nav class="nav"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anom Artsy — Kids Corner</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .episode-section { max-width: 960px; margin: 0 auto 60px; padding: 0 20px; }
+        .episode-badge { display: inline-block; background: #ff2d78; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; margin-bottom: 10px; }
+        .episode-badge.coming-soon { background: #555; color: #aaa; }
+        .episode-number { font-size: 0.85rem; color: #00e5ff; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 6px; }
+        .episode-title { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 10px; }
+        .episode-tagline { color: #d6d6d6; font-size: 1rem; margin-bottom: 30px; font-style: italic; }
+        .story-pages { display: flex; flex-direction: column; gap: 30px; }
+        .story-page { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 28px 32px; display: flex; gap: 24px; align-items: flex-start; }
+        .story-page-number { font-size: 2.5rem; font-weight: 900; color: #ff2d78; line-height: 1; min-width: 40px; }
+        .story-page-text { color: #e8e8e8; font-size: 1.1rem; line-height: 1.9; }
+        .story-page-text em { color: #00e5ff; font-style: normal; font-weight: 600; }
+        .story-end { text-align: center; margin-top: 30px; padding: 28px; background: linear-gradient(135deg, rgba(255,45,120,0.1), rgba(0,229,255,0.1)); border-radius: 16px; border: 1px solid rgba(255,45,120,0.2); }
+        .story-end p { color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; }
+        .story-end span { color: #d6d6d6; font-size: 0.9rem; }
+        .divider { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 60px auto; max-width: 960px; }
+    </style>
+</head>
+<body>
     <nav class="nav">
+        <div class="nav-left">
+            <img src="assets/site/ao-logo-neon-square.png" alt="AO Logo" class="nav-logo">
+            <span class="nav-title">Anom Artsy</span>
+        </div>
+        <div class="nav-right">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="custom.html" class="nav-link">Custom Work</a>
+            <a href="merch.html" class="nav-link">Merch</a>
+            <a href="stories.html" class="nav-link">Stories</a>
+            <a href="kids-corner.html" class="nav-link active">Kids Corner</a>
+        </div>
+    </nav>
+    <header class="hero" style="background: url('ao-background-aqua-butterfly-heart-dream-14.png') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1 class="hero-title">Anom's Corner</h1>
+            <p class="hero-subtitle">Safe &bull; Colorful &bull; Fun</p>
+        </div>
+    </header>
+    <section class="featured">
+        <h2 class="section-title">A Magical Space for Kids</h2>
+        <p style="max-width:800px;margin:0 auto 40px;color:#d6d6d6;">A cozy digital nook where kids can enjoy short, expressive storybooks while parents explore merch, art, and creative assets. Everything here is gentle, colorful, and age-appropriate.</p>
+    </section>
+    <!-- EPISODE 1 -->
+    <section class="featured">
+        <div class="episode-section">
+            <p class="episode-number">Episode 1</p>
+            <span class="episode-badge">Now Playing</span>
+            <h2 class="episode-title">Pixel &amp; Dot's New Adventure</h2>
+            <p class="episode-tagline">A gentle story about siblings, emotions, and imagination.</p>
+            <div class="featured-card" style="max-width:100%;">
+                <video controls style="width:100%;border-radius:10px;">
+                    <source src="pixel_dot_full_story_final.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    <hr class="divider">
+    <!-- EPISODE 2 -->
+    <section class="featured">
+        <div class="episode-section">
+            <p class="episode-number">Episode 2</p>
+            <span class="episode-badge">Read Along</span>
+            <h2 class="episode-title">Grandma Moves In</h2>
+            <p class="episode-tagline">A warm story about big changes, big feelings, and even bigger love.</p>
+            <div class="story-pages">
+                <div class="story-page"><div class="story-page-number">1</div><div class="story-page-text"><em>Pixel</em> and <em>Dot</em> were playing in the living room when Mom called from the hallway.<br><br>"Good news, you two! Grandma Rosie is coming to live with us - starting tomorrow!"</div></div>
+                <div class="story-page"><div class="story-page-number">2</div><div class="story-page-text">Dot jumped up and spun around. "Grandma's moving IN? Like, forever?!"<br><br>Pixel went quiet. Forever felt like a very long word.</div></div>
+                <div class="story-page"><div class="story-page-number">3</div><div class="story-page-text">That night, Pixel whispered to Dot in the dark.<br><br>"What if she takes our playroom? What if she doesn't like our cartoons?"<br><br>Dot thought about it. "What if she <em>loves</em> our cartoons?"</div></div>
+                <div class="story-page"><div class="story-page-number">4</div><div class="story-page-text"><em>Grandma Rosie</em> arrived with two big suitcases, a rocking chair, and a tin of cookies shaped like stars.<br><br>She smelled like lavender and warm bread, and her hugs lasted exactly long enough.</div></div>
+                <div class="story-page"><div class="story-page-number">5</div><div class="story-page-text">She didn't take the playroom. She got the sunny corner room at the end of the hall.<br><br>She did ask about the cartoons, though - and she had <em>a lot</em> of opinions.</div></div>
+                <div class="story-page"><div class="story-page-number">6</div><div class="story-page-text">Some days were still tricky. Grandma Rosie liked the TV volume loud.<br><br>Pixel liked quiet. Dot liked everything loud. So at least two of them were happy.</div></div>
+                <div class="story-page"><div class="story-page-number">7</div><div class="story-page-text">One rainy afternoon, Grandma Rosie taught <em>Pixel</em> how to fold paper cranes.<br><br>"Every fold is a wish," she said. "So fold carefully."<br><br>Pixel folded twelve cranes. Twelve wishes, just in case.</div></div>
+                <div class="story-page"><div class="story-page-number">8</div><div class="story-page-text"><em>Dot</em> ate four of the star cookies without asking.<br><br>Grandma Rosie didn't mind. She just made more.<br><br>"That's what cookie tins are for," she said with a wink.</div></div>
+                <div class="story-page"><div class="story-page-number">9</div><div class="story-page-text">By the end of the first week, Grandma Rosie's rocking chair had a special spot by the window.<br><br>And Pixel and Dot had a special spot - one on each armrest - whenever they needed a story.</div></div>
+                <div class="story-page"><div class="story-page-number">10</div><div class="story-page-text">That night, Pixel whispered to Dot again.<br><br>"I think I was wrong about forever."<br><br>Dot smiled sleepily. "I think forever smells like lavender and cookies."</div></div>
+                <div class="story-end"><p>The End</p><span>Home grows a little bigger every time someone new fills it with love.</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="divider">
+    <section class="featured">
+        <h2 class="section-title">Coming Up Next</h2>
+        <div class="featured-grid">
+            <div class="featured-card"><span class="episode-badge coming-soon">Coming Soon</span><h3>Pixel &amp; Dot: Debugging Day</h3><p>When nothing goes right, two siblings learn that mistakes are just part of the process.</p></div>
+            <div class="featured-card"><span class="episode-badge coming-soon">Coming Soon</span><h3>The Magic River Bridge</h3><p>A mysterious bridge appears overnight - and only kids who believe can cross it.</p></div>
+            <div class="featured-card"><span class="episode-badge coming-soon">Coming Soon</span><h3>Butterfly Heart Forest</h3><p>Deep in the glowing forest, every butterfly carries a feeling waiting to be found.</p></div>
+            <div class="featured-card"><span class="episode-badge coming-soon">Coming Soon</span><h3>Dreamlight Castle</h3><p>A castle built from dreams - where every room holds a different adventure.</p></div>
+        </div>
+    </section>
+    <section class="featured">
+        <h2 class="section-title">A Note for Parents</h2>
+        <p style="max-width:800px;margin:0 auto 30px;color:#d6d6d6;">Every story is crafted with care - gentle themes, soft visuals, and expressive characters. Kids can enjoy short digital adventures while you browse merch, explore art, or request custom work.</p>
+    </section>
+    <footer class="footer"><p>&copy; 2026 Anom Artsy - All Rights Reserved</p></footer>
+</body>
+</html>
         <div class="nav-left">
             <img src="assets/site/ao-logo-neon-square.png" alt="AO Logo" class="nav-logo">
             <span class="nav-title">Anom Artsy</span>
