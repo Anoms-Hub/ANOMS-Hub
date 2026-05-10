@@ -2,42 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AO | Official Merch Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AO | Official Merch & Collectibles</title>
     <style>
-        body { background-color: #000; color: #00e5ff; font-family: 'Courier New', monospace; text-align: center; }
-        .grid { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
-        .card { 
-            border: 2px solid #ff00ff; /* Magenta Glow */
-            margin: 15px; 
-            padding: 10px; 
-            width: 250px; 
-            background: #111;
-            box-shadow: 0 0 15px #ff00ff;
+        body { 
+            background-color: #0b0e14; 
+            color: #ffffff; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        .card img { width: 100%; border-radius: 5px; }
-        h2 { color: #ff00ff; text-shadow: 0 0 5px #ff00ff; }
-        .btn { 
-            display: inline-block; 
-            margin-top: 10px; 
-            padding: 10px; 
-            border: 1px solid #00e5ff; 
-            color: #00e5ff; 
-            text-decoration: none; 
+        
+        .store-header {
+            text-align: center;
+            padding: 60px 20px;
+            background: radial-gradient(circle at center, rgba(255, 0, 255, 0.1) 0%, transparent 75%);
+            width: 100%;
         }
-        .btn:hover { background: #00e5ff; color: #000; }
+
+        h1 { 
+            color: #ff00ff; 
+            font-size: 2.5rem; 
+            text-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            padding: 40px 20px;
+        }
+
+        /* The AO Collectible Card */
+        .item-card {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            border-radius: 28px;
+            width: 300px;
+            padding: 25px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .item-card:hover {
+            transform: translateY(-10px);
+            border-color: #00e5ff;
+            box-shadow: 0 0 25px rgba(0, 229, 255, 0.2);
+        }
+
+        .img-box {
+            width: 100%;
+            aspect-ratio: 1;
+            background: #1e293b;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+        }
+
+        h3 { color: #00e5ff; margin: 10px 0; font-size: 1.2rem; }
+        .price { color: #ff5ebc; font-weight: bold; font-size: 1.3rem; margin: 5px 0; }
+        
+        .btn-link {
+            display: block;
+            background: #1a1f2e;
+            border: 1px solid #334155;
+            color: #ffffff;
+            padding: 14px;
+            border-radius: 50px;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .btn-link:hover {
+            background: #ff00ff;
+            color: #000;
+            border-color: #ff00ff;
+        }
+
+        .footer-nav { margin-top: 60px; }
+        .back-link { color: #ff00ff; text-decoration: none; font-weight: bold; }
     </style>
 </head>
 <body>
-    <h1>AO MERCH DROP</h1>
+
+    <header class="store-header">
+        <h1>AO MERCH DROP</h1>
+        <p style="color: #00e5ff; letter-spacing: 2px;">// OFFICIAL DIGITAL & PHYSICAL ASSETS //</p>
+    </header>
+
     <div class="grid">
-        <div class="card">
-            <img src="YOUR_MOCKUP_IMAGE.png" alt="AO Gear">
-            <h2>V8 MASKED LOGO</h2>
-            <p>Cyan/Magenta Special Edition</p>
-            <a href="https://anom-originals.myspreadshop.com/" class="btn">VIEW ON SPREADSHOP</a>
+        <div class="item-card">
+            <div class="img-box">
+                <p style="color: #444; font-size: 0.8rem;">[ V8 ASSET MOCKUP ]</p>
+            </div>
+            <h3>NEON V8 HOODIE</h3>
+            <p class="price">$48.00</p>
+            <a href="https://anom-originals.myspreadshop.com/" class="btn-link">Shop Collection</a>
+        </div>
+
+        <div class="item-card">
+            <div class="img-box">
+                <p style="color: #444; font-size: 0.8rem;">[ MOOD PATCH MOCKUP ]</p>
+            </div>
+            <h3>AUTHENTIC MOOD PATCH</h3>
+            <p class="price">$15.00</p>
+            <a href="https://anom-originals.myspreadshop.com/" class="btn-link">Shop Collection</a>
         </div>
     </div>
-    <br>
-    <a href="index.html" style="color: #ff00ff;">[ BACK TO HUB ]</a>
+
+    <div class="footer-nav">
+        <a href="index.html" class="back-link">[ RETURN TO HUB ]</a>
+    </div>
+
+    <p style="font-family: 'Brush Script MT', cursive; color: #ff00ff; font-size: 2rem; margin-top: 40px; opacity: 0.5;">Anom</p>
+
 </body>
 </html>
