@@ -8,7 +8,7 @@
         body { 
             background-color: #0b0e14; 
             color: #ffffff; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-family: 'Segoe UI', sans-serif; 
             margin: 0; 
             padding: 20px;
             display: flex;
@@ -96,8 +96,7 @@
             border-color: #ff00ff;
         }
 
-        .footer-nav { margin-top: 60px; }
-        .back-link { color: #ff00ff; text-decoration: none; font-weight: bold; }
+        .back-link { color: #ff00ff; text-decoration: none; font-weight: bold; margin-top: 40px; }
     </style>
 </head>
 <body>
@@ -110,7 +109,7 @@
     <div class="grid">
         <div class="item-card">
             <div class="img-box">
-                <p style="color: #444; font-size: 0.8rem;">[ V8 ASSET MOCKUP ]</p>
+                <p style="color: #444;">[ V8 HOODIE IMAGE ]</p>
             </div>
             <h3>NEON V8 HOODIE</h3>
             <p class="price">$48.00</p>
@@ -119,7 +118,7 @@
 
         <div class="item-card">
             <div class="img-box">
-                <p style="color: #444; font-size: 0.8rem;">[ MOOD PATCH MOCKUP ]</p>
+                <p style="color: #444;">[ MOOD PATCH IMAGE ]</p>
             </div>
             <h3>AUTHENTIC MOOD PATCH</h3>
             <p class="price">$15.00</p>
@@ -127,9 +126,7 @@
         </div>
     </div>
 
-    <div class="footer-nav">
-        <a href="index.html" class="back-link">[ RETURN TO HUB ]</a>
-    </div>
+    <a href="index.html" class="back-link">[ RETURN TO HUB ]</a>
 
     <p style="font-family: 'Brush Script MT', cursive; color: #ff00ff; font-size: 2rem; margin-top: 40px; opacity: 0.5;">Anom</p>
 
