@@ -1,0 +1,53 @@
+title: "🔮 ANOMS Hub"
+description: "Central hub for ANOMS Enterprise governance, docs, and roadmaps"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+nav:
+  - text: "🔮 AO Universe Docs"
+    link: /docs/
+    items:
+      - text: "AO Cosmology — Neon Genesis Rewrite"
+        link: /docs/ao-cosmology/
+
+  - text: "🧭 Governance & Standards"
+    link: /governance/
+    items:
+      - text: "Governance Framework"
+        link: /governance/
+      - text: "Decision‑Making Policies"
+        link: /governance/policies/
+      - text: "Contributor Guidelines"
+        link: /contributors/
+
+  - text: "🏗️ Architecture & Systems"
+    link: /architecture/
+    items:
+      - text: "System Architecture"
+        link: /architecture/
+      - text: "Design Decisions (ADR)"
+        link: /architecture/decisions/
+      - text: "Technical Structure"
+        link: /architecture/structure/
+
+  - text: "🗺️ Roadmaps & Planning"
+    link: /roadmaps/
+    items:
+      - text: "Project Roadmaps"
+        link: /roadmaps/
+      - text: "Milestones & Phases"
+        link: /roadmaps/phases/
+      - text: "Release Planning"
+        link: /roadmaps/releases/
+
+  - text: "🎨 Brand & Identity"
+    link: /brand/
+    items:
+      - text: "Brand Voice & Messaging"
+        link: /brand/
+      - text: "Visual Identity References"
+        link: /brand/identity/
+      - text: "AO Style Guide"
+        link: /brand/style-guide/
