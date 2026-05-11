@@ -140,4 +140,7 @@ Project governance, decision-making frameworks, and operational policies are doc
 
 </div>
 ]]>
+## 🔮 AO Universe Documentation  
+- [AO Cosmology — Neon Genesis Rewrite](docs/ao-cosmology.md)
+
 - [AO Cosmology — Neon Genesis Rewrite](docs/ao-cosmology.md)
