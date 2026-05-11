@@ -142,4 +142,34 @@ Project governance, decision-making frameworks, and operational policies are doc
 ]]>
 ## 🔮 AO Universe Documentation  
 - [AO Cosmology — Neon Genesis Rewrite](docs/ao-cosmology.md)
+## 📚 AO Documentation Navigation  
+A unified index for all major knowledge layers inside the Anom Originals ecosystem.
+
+### 🔮 Core Universe Docs
+- [AO Cosmology — Neon Genesis Rewrite](docs/ao-cosmology.md)
+
+### 🧭 Governance & Standards
+- [Governance Framework](governance/)
+- [Decision‑Making Policies](governance/policies.md)
+- [Contributor Guidelines](contributors/)
+
+### 🏗️ Architecture & Systems
+- [System Architecture](architecture/)
+- [Design Decisions (ADR)](architecture/decisions/)
+- [Technical Structure](architecture/structure.md)
+
+### 🗺️ Roadmaps & Planning
+- [Project Roadmaps](roadmaps/)
+- [Milestones & Phases](roadmaps/phases.md)
+- [Release Planning](roadmaps/releases.md)
+
+### 🎨 Brand & Identity
+- [Brand Voice & Messaging](brand/)
+- [Visual Identity References](brand/identity.md)
+- [AO Style Guide](brand/style-guide.md)
+
+---
+
+> **This section grows as the AO Universe expands.**  
+> Neon‑forward. Organized. Centralized. AO‑aligned.
 
